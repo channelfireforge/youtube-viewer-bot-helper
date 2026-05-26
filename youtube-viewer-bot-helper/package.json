@@ -1,0 +1,16 @@
+{
+  "name": "youtube-viewer-bot-helper",
+  "version": "1.0.0",
+  "description": "A helper bot for simulating YouTube video views (educational purposes only)",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "random-useragent": "^0.5.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
